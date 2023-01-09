@@ -1,0 +1,256 @@
+.wi-container {
+    margin: 4rem;
+}
+
+.wi-header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wi-tfs-button {
+    display: flex;
+    background-color: #5865F2;
+    align-items: center;
+    padding: 0.5rem;
+    border-radius: 12px;
+    color: #ffffff;
+    gap: 0.5rem;
+    min-width: 10rem;
+    justify-content: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.wi-btn {
+    padding: 0.8rem 1rem;
+    background: none;
+    border: none;
+    border-radius: 12px;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    background-color: #5865F2;
+    max-width: 10rem;
+
+}
+
+.wi-info-container {
+    display: flex;
+    gap: 2rem;
+}
+
+.wi-desc-container {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.wi-desc-container>h2 {
+    margin-bottom: 0.5rem;
+}
+
+.wi-desc-container>p {
+    margin-bottom: 1rem;
+}
+
+.qa-status-container {
+    margin-top: 1rem;
+    background-color: #232323;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.qa-status-checklist {
+    margin: 1rem;
+    width: 100%;
+}
+
+.qa-status-checklist>h2 {
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+.qa-status-checklist-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.qa-status-checklist-item > textarea {
+    border-radius: 12px;
+    background-color: #D9D9D9;
+    border: none;
+    padding: 1rem;
+    resize: none;
+    color: #000000;
+}
+
+.qa-status-checklist-item-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.qa-status-checklist-item-main>h2 {
+    color: #ffffff;
+    margin-right: 2rem;
+}
+
+.qa-status-ok-btn {
+    padding: 0.4rem 0.8rem;
+    background: none;
+    border: none;
+    border-radius: 12px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    background-color: #3BA55C;
+}
+
+.qa-status-ok-fail {
+    padding: 0.4rem 0.8rem;
+    background: none;
+    border: none;
+    border-radius: 12px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    background-color: #D83C3E;
+}
+
+.qa-status-buttons-clear {
+    padding: 0.4rem 0.8rem;
+    background: none;
+    border: none;
+    border-radius: 12px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    background-color: #D83C3E;
+}
+
+.qa-status-buttons-send {
+    padding: 0.4rem 0.8rem;
+    background: none;
+    border: none;
+    border-radius: 12px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    background-color: #5865F2;
+}
+
+.qa-status-checklist-item-main-btns {
+    display: flex;
+    gap: 1rem;
+}
+
+.btn-sel {
+    border: 2px solid;
+}
+
+.qa-status-buttons {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.api-results-item {
+    display: flex;
+    gap: 2rem;
+    margin: 1rem 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.api-results-item>input {
+    border-radius: 10px;
+    background-color: #B4B4B4;
+    border: none;
+    padding: 1rem;
+    color: rgba(0, 0, 0, 0.65);
+    width: 100%;
+    width: 50%;
+    height: 2rem;
+}
+
+.api-results-item>button {
+    padding: 0.4rem 0.6rem;
+    background: none;
+    border: none;
+    border-radius: 12px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    background-color: #5865F2;
+    width: 15rem;
+}
+
+
+.qa-status-api-results {
+    width: 100%;
+    color: #ffffff;
+}
+
+.qa-status-api-results-title-container {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.eye {
+    cursor: pointer;
+}
+
+.qa-status-api-results-title-container>button {
+    padding: 0.5rem 1rem;
+    background: none;
+    border: none;
+    border-radius: 12px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    background-color: #5865F2;
+}
+
+.overall-status {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0;
+    gap: 1rem;
+}
+
+.overall-status > h2 {
+    color: #ffffff;
+}
+
+.overall-status>textarea {
+    border-radius: 12px;
+    background-color: #D9D9D9;
+    border: none;
+    padding: 1rem;
+    resize: none;
+    color: #000000;
+}

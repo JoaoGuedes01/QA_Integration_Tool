@@ -1,0 +1,51 @@
+.navbar-container{
+    height: 7rem;
+    background-color: #232323;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-container > ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.nav-btn {
+    padding: 0.8rem 1rem;
+    background: none;
+    border: none;
+    border-radius: 12px;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    background-color: #5865F2;
+}
+
+.red{
+    background-color: #D83C3E;
+}
+
+.jira-name{
+    color: #ffffff;
+}
+
+.connection{
+    display: flex;
+    gap: 1rem;
+}
+
+.connections-container{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}

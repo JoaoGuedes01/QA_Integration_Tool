@@ -1,0 +1,121 @@
+.ks-container-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ks-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 5rem;
+}
+
+.ks-select-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 5rem;
+    margin-bottom: 2rem;
+}
+
+.ks-select-group {
+    display: flex;
+    gap: 2rem
+}
+
+.ks-items-container {
+    width: 100%;
+}
+
+.ks-item-body-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.ks-btns-container {
+    margin-bottom: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.ks-btns-container>.btn-blue {
+    padding: 0.5rem 1rem;
+    background: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    background-color: #5865F2;
+    max-width: 10rem;
+    margin-top: 1rem;
+    display: flex;
+}
+
+.ks-btns-container>.btn-red {
+    padding: 0.5rem 1rem;
+    background: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    background-color: #D83C3E;
+    max-width: 10rem;
+    margin-top: 1rem;
+    display: flex;
+}
+
+.ks-btns-container>.btn-green {
+    padding: 0.5rem 1rem;
+    background: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    background-color: #3BA55C;
+    max-width: 10rem;
+    margin-top: 1rem;
+    display: flex;
+}
+
+.ks-new-btn {
+    padding: 0.5rem 1rem;
+    background: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    background-color: #3BA55C;
+    max-width: 10rem;
+    margin-top: 1rem;
+}
+
+.ks-item-body {
+    background-color: #232323;
+    color: #ffffff;
+    padding: 2rem;
+    border-radius: 15px;
+}
+
+.ks-select-group > select{
+    background-color: #232323;
+    color: #ffffff;
+    padding: 1rem;
+    border-radius: 10px;
+    border: none;
+}

@@ -1,0 +1,59 @@
+.qal-container{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    padding: 2rem;
+    margin: 2rem;
+}
+
+.team-config-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.tcc-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tcc-title{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.tcc-body{
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chosen {
+    background-color: #3BA55C;
+    border-radius: 12px;
+    padding: 1rem;
+    color: #ffffff;
+}
+.edit-btn{
+    display: flex;
+    align-items: center;
+    background-color: #5865F2;
+    padding: 0.5rem;
+    border-radius: 6px;
+    height: 50%;
+}
+.qal-next-sprint{
+    padding: 0.5rem 1rem;
+    background: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    background-color: #5865F2;
+    max-width: 8rem;
+}

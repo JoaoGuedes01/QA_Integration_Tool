@@ -1,0 +1,48 @@
+{
+    "runtime": "prod",
+    "endpoints":{
+        "jiraSanity":{
+            "dev": "http://127.0.0.1:5000/api/jira/sanity",
+            "prod": "/api/jira/sanity"
+        },
+        "tfsSanity":{
+            "dev": "http://127.0.0.1:5000/api/tfs/sanity",
+            "prod": "/api/tfs/sanity"
+        },
+        "tfsGetWorkItems":{
+            "dev": "http://127.0.0.1:5000/api/tfs/get-items",
+            "prod": "/api/tfs/get-items"
+        },
+        "migrateItems":{
+            "dev": "http://127.0.0.1:5000/api/jira/migrate",
+            "prod": "/api/jira/migrate"
+        },
+        "jiraGetWorkItems":{
+            "dev": "http://127.0.0.1:5000/api/jira/items",
+            "prod": "/api/jira/items"
+        },
+        "tfsGetWorkItemsDetails":{
+            "dev": "http://127.0.0.1:5000/api/tfs/get-item-details",
+            "prod": "/api/tfs/get-item-details"
+        },
+        "tfsCommentWorkItem":{
+            "dev": "http://127.0.0.1:5000/api/tfs/comment",
+            "prod": "/api/tfs/comment"
+        },
+        "qadbteams":{
+            "dev": "http://127.0.0.1:5000/api/qabd/teams",
+            "prod": "/api/qabd/teams"
+        },
+        "nextSprint":{
+            "dev": "http://127.0.0.1:5000/api/qabd/next-sprint",
+            "prod": "/api/qabd/next-sprint"
+        }
+    }
+}
+
+
+
+
+
+
+
